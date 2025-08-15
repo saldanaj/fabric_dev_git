@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "products_demo",
+    "description": "This notebook is to demonstrate how Delta Lake works with Fabric"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5cdb0c60-88d9-bd29-455e-a7f7b741e587"
+  }
+}

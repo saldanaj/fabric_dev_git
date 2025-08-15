@@ -1,0 +1,44 @@
+table dimproduct_gold
+	lineageTag: ba1a205a-5b19-4331-98ba-11b7bfe0ddbb
+	sourceLineageTag: [dbo].[dimproduct_gold]
+
+	column ItemName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 73fd7e0d-e820-4afe-9e48-6f1fea08f754
+		sourceLineageTag: ItemName
+		summarizeBy: none
+		sourceColumn: ItemName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ItemID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 3189b6ea-2b2e-4831-840e-e258beb08cfd
+		sourceLineageTag: ItemID
+		summarizeBy: count
+		sourceColumn: ItemID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ItemInfo
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 8359007a-7c5b-409a-b372-8cc055976f92
+		sourceLineageTag: ItemInfo
+		summarizeBy: none
+		sourceColumn: ItemInfo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dimproduct_gold = entity
+		mode: directLake
+		source
+			entityName: dimproduct_gold
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
