@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "Orders Dataflow Gen2"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "73d495d7-c1f3-a67a-413b-067b614b1ab5"
+  }
+}
