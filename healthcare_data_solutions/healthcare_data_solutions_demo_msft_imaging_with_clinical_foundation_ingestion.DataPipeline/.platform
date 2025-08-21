@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "healthcare_data_solutions_demo_msft_imaging_with_clinical_foundation_ingestion",
+    "description": "This pipeline ingests the clinical FHIR ndjson data and the imaging DICOM data into Delta tables in the bronze lakehouse, flattens the data into the silver lakehouse."
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0c78ee4f-c18f-b751-447d-2e9ac848786f"
+  }
+}

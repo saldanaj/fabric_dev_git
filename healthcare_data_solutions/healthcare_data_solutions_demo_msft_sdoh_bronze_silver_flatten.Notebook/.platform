@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "healthcare_data_solutions_demo_msft_sdoh_bronze_silver_flatten"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "48685501-4e4f-9394-4101-e20aca7638a1"
+  }
+}

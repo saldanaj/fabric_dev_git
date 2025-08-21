@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "healthcare_data_solutions_demo_msft_sdoh_ingestion",
+    "description": "This pipeline ingests and transforms SDOH public datasets from csv or xlsx format within the landing zone into a custom data model in the silver lakehouse, enabling easy unification of SDOH data with core healthcare modalities like clinical and claims."
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f83b3f9a-5916-84a2-49c4-a477253d02df"
+  }
+}

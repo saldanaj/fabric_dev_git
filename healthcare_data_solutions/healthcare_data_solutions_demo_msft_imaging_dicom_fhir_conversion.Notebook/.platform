@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "healthcare_data_solutions_demo_msft_imaging_dicom_fhir_conversion"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "91968b38-c78d-ade9-4c9a-01e4411ed0c6"
+  }
+}
